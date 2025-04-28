@@ -24,11 +24,11 @@ def main():
     
      
     adjunto = input("¿Desea agregar un archivo? (s/n): ").lower()
-    print(f"Respuesta sobre el adjunto: {adjunto}")  # DEBUG
+    print(f"Respuesta sobre el adjunto: {adjunto}")  
 
     if adjunto == "s":
         archivo = input("Ingrese el nombre del archivo adjunto: ")
-        print(f"Archivo ingresado: {archivo}")  # DEBUG
+        print(f"Archivo ingresado: {archivo}")  
         tarea = TareaConAdjunto(tarea, archivo)
 
     print("Resultado final de la tarea:")
